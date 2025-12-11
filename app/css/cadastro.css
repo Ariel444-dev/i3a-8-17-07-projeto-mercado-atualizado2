@@ -1,0 +1,27 @@
+main {
+    div {
+        width: 80%;
+        margin: auto;
+        padding-top: 20px;
+
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+    
+
+        form {
+            background-color: rgb(156, 238, 211);
+            padding: 20px;
+            width: fit-content;
+            border-radius: 8px;
+
+            input, select {
+                padding: 5px;
+                font-size: 1.2em;
+                min-width: 400px;
+            }
+
+        }
+    }
+}
