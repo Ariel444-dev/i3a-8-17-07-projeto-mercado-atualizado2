@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
-
 import pg from 'pg';
+
 
 const mysql = new Sequelize({
 dialect: 'postgres',

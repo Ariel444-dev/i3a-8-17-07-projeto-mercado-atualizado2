@@ -1,0 +1,11 @@
+import "./tables.js";
+import mysql from "./mysql.js";
+
+export default async function initDB() {
+await mysql.sync({ force: true })
+.then(() => console.log(" Tabelas sincronizadas"))
+.catch(err => console.error(err));
+console.log("Tables OK");
+}
+
+initDB()
